@@ -1,0 +1,20 @@
+{
+   "name": "icon-formater",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "npm run clean && ts-node src/index.ts",
+      "build": "tsc",
+      "clean": "rm -rf output"
+   },
+   "author": "",
+   "license": "ISC",
+   "devDependencies": {
+      "@types/node": "^12.7.4",
+      "ts-node": "^8.3.0",
+      "ts-node-dev": "^1.0.0-pre.41",
+      "typescript": "^3.5.3"
+   }
+}
